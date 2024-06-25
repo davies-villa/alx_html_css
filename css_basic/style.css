@@ -34,13 +34,11 @@ header ul li a:hover {
 }
 
 main {
-    margin: 10px 20px;
+    margin: 10px 30px;
     display: flex;
     flex-direction: row;
     flex: auto; 
 }
-
-
 
 article {
     flex: 2; 
@@ -52,4 +50,6 @@ aside {
     overflow-y: auto;
 }
 
-
+footer{
+    text-align: center;
+}
