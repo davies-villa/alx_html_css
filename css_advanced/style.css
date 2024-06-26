@@ -5,7 +5,12 @@
 }
 
 header {
-background-color: transparent;
+    height: 1093px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../css_advanced/images/background.png);
+    background-position: center;
+    background-size: cover;
 }
 
 nav {
@@ -15,6 +20,7 @@ nav {
     padding-top: 35.02px;
     padding-left: 171.59px;
     background-color: transparent;
+    height: 29.46px;
 }
 
 nav ul {
@@ -36,26 +42,22 @@ nav ul li a {
     letter-spacing: 1px;
 }
 
-main{
-    height: 1093px;
-    width: 100%;
-    background-image: url(../css_advanced/images/Object.png);
-    background-position: center;
-    background-size: cover;
+.main-content {
+    padding-top: 155px;
+
 }
 
-
-.main-content h1{
+.main-content h1 {
     font-size: 120px;
-    padding-top: 187px;
     font-weight: 700;
-    padding-left: 347px;
+    text-align: center;
     line-height: 1.2;
-    letter-spacing: 6px;
     color: #fff;
+    height: 151px;
 }
 
-.main-content span{
+
+.main-content span {
     padding: 10px;
     text-align: center;
     color: #fff;
@@ -69,21 +71,23 @@ main{
     font-size: 16px;
     font-weight: 600;
     display: flex;
+    top: 50%;
+    transform: translateY(-50%);
     width: 20%;
-    margin: 0 auto; 
-}  
+    margin: 0 auto;
+}
 
 .container {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 10; /* Adjust the height as needed */
-    padding-top: 38px;
+    justify-content: center;
+    align-items: center;
+    height: 10;
+    padding-top: 10px;
 }
 
 .register-btn {
-    padding: 10px 20px; /* Adjust the padding as needed */
-    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px 20px;
+    font-size: 16px;
     margin: 0 auto;
     padding-top: 38px;
     font-size: 14px;
@@ -91,62 +95,80 @@ main{
     background-color: #C271FF;
     border-radius: 22px;
     border: none;
-    height: 44px; 
+    height: 44px;
     width: 162px;
     color: #fff;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-.main-profiles h2{
+.main-profiles {
+    height: 364px;
     padding-top: 168px;
+}
+
+.main-profiles h2 {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 100; 
     color: #fff;
     text-align: center;
 }
-.main-profiles h2 span{
+
+.main-profiles h2 span {
     color: #C271FF;
     font-size: 32px;
     font-weight: 600;
-    padding-top: 20px;
 }
+
 .profiles {
     width: 1009px;
     display: flex;
-    justify-content: space-between; /* Adjust as needed: space-around, space-evenly, etc. */
-    flex-wrap: wrap; /* Allows wrapping to next line if needed */
-    gap: 136.333px;/* Adds space between items */
-    margin: 0 auto; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 136.333px;
+    margin: 0 auto;
     padding-top: 87px;
     text-align: center;
 }
+
 .profile {
     text-align: center;
 }
+
 .profile img {
-    width: 150px; /* Adjust as needed */
-    height: 150px; /* Maintain aspect ratio */
+    width: 150px;
+    height: 150px;
     display: block;
     margin: 0 auto;
 }
 
-.profile h3{
+.profile h3 {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
     padding-top: 6px;
 }
-.profile p{
+
+.profile p {
     font-size: 16px;
     font-weight: 100;
     color: #fff;
     padding-top: 6px;
 }
 
-.testimonial{
+.testimonial {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     height: 392px;
     width: 100%;
     background-color: #C271FF;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+    margin: 20px 0; 
 }
 
