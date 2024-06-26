@@ -62,46 +62,91 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+    width: 25%;
 }
 
 .main-txt-span {
     font-size: 16px;
     font-weight: 600;
     display: flex;
-    width: 15%;
+    width: 20%;
     margin: 0 auto; 
+}  
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 10; /* Adjust the height as needed */
+    padding-top: 38px;
 }
 
-.main-content button{
+.register-btn {
+    padding: 10px 20px; /* Adjust the padding as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 0 auto;
+    padding-top: 38px;
     font-size: 14px;
     padding: 5px 10px;
     background-color: #C271FF;
     border-radius: 22px;
     border: none;
-    height: 44px;
-    margin: 0 auto; 
+    height: 44px; 
     width: 162px;
     color: #fff;
-    align-items: center;
-    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+
+.main-profiles h2{
+    padding-top: 168px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.main-profiles h2 span{
+    color: #C271FF;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 20px;
+}
 .profiles {
+    width: 1009px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    justify-content: space-between; /* Adjust as needed: space-around, space-evenly, etc. */
+    flex-wrap: wrap; /* Allows wrapping to next line if needed */
+    gap: 136.333px;/* Adds space between items */
+    margin: 0 auto; 
+    padding-top: 87px;
+    text-align: center;
 }
 .profile {
-    display: flex;
     text-align: center;
-    max-width: 200px; /* Adjust as needed */
 }
 .profile img {
-    width: 100%; /* Make the images responsive */
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
 }
 
+.profile h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 6px;
+}
+.profile p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 6px;
+}
 
-
+.testimonial{
+    height: 392px;
+    width: 100%;
+    background-color: #C271FF;
+}
 
