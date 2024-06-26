@@ -189,11 +189,12 @@ nav ul li a {
     font-size: 22px;
     color: #fff;
 }
-
-.tutorials{
-    height: 624px;
+.tutorials {
     width: 100%;
+    height: 624px;
+    background-color: #fff;
 }
+
 .tutorials h2{
     text-align: center;
     padding-top: 87px;
@@ -209,3 +210,75 @@ nav ul li a {
     font-weight: 600;
 }
 
+.cards-container {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 31px;
+}
+
+.card {
+    width: 255px;
+    height: 335px;
+    border: 1px solid none;
+}
+
+.card img {
+    width: 100%;
+    height: 154px; 
+}
+
+.card h3 {
+    padding-top: 18px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card p {
+    padding-top: 12px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.author-info img {
+    width: 30px;
+    height: 30px;
+    padding-top: 13px;
+}
+
+.author-info h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating i {
+    color: #C271FF;
+    margin-right: 4px;
+}
+.rating .empty-star {
+    color: #D8D8D8;
+}
+
+.rating-container p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
