@@ -1,1 +1,1 @@
-# alx_html_css
+Welcome to SmileSchool, a web-based Learning Management System (LMS) designed to streamline the enrollment process for our school. SmileSchool aims to provide an efficient, user-friendly platform for students, parents, and staff to manage enrollments seamlessly.
