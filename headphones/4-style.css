@@ -145,7 +145,7 @@ nav ul li a:hover {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .menu-icon {
         display: none;
     }
@@ -302,7 +302,7 @@ nav ul li a:hover {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .items {
         flex: 1 1 100%;
         max-width: 100%;
@@ -376,7 +376,7 @@ nav ul li a:hover {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .pentagon {
         flex: 1 1 100%;
         max-width: 100%;
@@ -521,7 +521,7 @@ footer {
     color: #5E6874;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .footer-content {
         gap: 20px;
         flex-direction: column;
