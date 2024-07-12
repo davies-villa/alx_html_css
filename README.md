@@ -1,1 +1,1 @@
-Welcome to SmileSchool, a web-based Learning Management System (LMS) designed to streamline the enrollment process for our school. SmileSchool aims to provide an efficient, user-friendly platform for students, parents, and staff to manage enrollments seamlessly.
+Welcome to Hobleton, a webpage designed for A SMEs that focuses in selling headphones. Hobleto aims to increase engagement, user-friendly platform for buyers, investors, and staff to manage orders seamlessly.
