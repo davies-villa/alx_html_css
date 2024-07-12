@@ -77,14 +77,14 @@
     align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     .items {
         flex: 1 1 45%;
         max-width: 45%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
     .items {
         flex: 1 1 100%;
         max-width: 100%;
